@@ -19,7 +19,6 @@
                 devShell = pkgs.mkShell rec {
                 name = "impurePythonEnv-flake";
                 venvDir = "./.venv";
-
                 buildInputs = [
                 pythonPkgs.python
                 pythonPkgs.venvShellHook
@@ -37,6 +36,8 @@
                 pythonPkgs.pyperclip
                 ] ++ baseShell.buildInputs;
 
+                dontUsePytestCheck = true;
+                doCheck = false;
 # Install pip dependencies into the venv
                 postVenvCreation = ''
                     unset SOURCE_DATE_EPOCH
