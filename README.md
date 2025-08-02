@@ -8,7 +8,7 @@ This tool is ideal for individuals who value privacy, control over their data, a
 
 ## 🧠 Project Philosophy
 
-VaultSeer works as a librarian in a dwarven fortress: it does not provide final answers, but rather points to the most relevant documents from your knowledge vaults, helping reinforce understanding through active retrieval.
+VaultSeer works as a librarian in a fortress: it does not provide final answers, but rather points to the most relevant documents from your knowledge vaults, helping reinforce understanding through active retrieval.
 
 Initially, VaultSeer will:
 
@@ -57,5 +57,4 @@ vaultseer/
 - To be defined.
 ---
 ### 🛠️ Developed by
-- This project is maintained and built by DwarfSoftware, a company that values modularity, reliability, and well-crafted software rooted in the engineering spirit of the dwarves.
-
+- This project is maintained and built by [Menezess42](github.com/Menezess42).
