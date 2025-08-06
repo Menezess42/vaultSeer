@@ -34,6 +34,8 @@
                 pythonPkgs.jupytext
                 pythonPkgs.pynvim
                 pythonPkgs.pyperclip
+
+                pythonPkgs.graphviz
                 ] ++ baseShell.buildInputs;
 
                 dontUsePytestCheck = true;
