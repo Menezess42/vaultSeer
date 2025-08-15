@@ -30,10 +30,10 @@ vaultseer/
 ├── README.md                # Project description and instructions
 ├── vaultseer/               # Main Python package (to be developed)
 │   ├── __init__.py
-│   ├── core/                # Pure logic: domain, indexers, similarity algorithms
-│   ├── interface/           # CLI and/or GUI interactions
-│   ├── infra/               # Persistence and storage (e.g., FAISS, SQLite, etc.)
-│   └── config.py
+│   ├── aux_dataStructures/  # auxiliar data structures created to help walking the data
+│   ├── aux_Files/           # auxiliar files 
+│   └── crawler/             # baseDirs Crawler and maestro goes here
+│   
 ├── tests/                   # Unit and integration tests
 │   └── __init__.py
 ├── data/                    # Temporary folder for ingested documents (git-ignored)
