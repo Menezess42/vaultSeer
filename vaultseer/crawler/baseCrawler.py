@@ -26,6 +26,7 @@ class BaseCrawler:
 
     def read_baseDirs(self, file_path: str=f"{AUX_FILES}/baseDirs.json") -> None:
         """Load base directory configuration from a JSON file.
+            **METHOD FOR TEST**
 
         Args:
             file_path (str, optional): Path to the JSON file containing base directory definitions. Defaults to "vaultSeer/aux_Files/baseDirs.json"
