@@ -1,3 +1,8 @@
+<div align="center">
+<h1>VaultSeer</h1>
+<img width="300" height="300" alt="vaultSeer" src="https://github.com/user-attachments/assets/05a26aad-0dc6-43dc-8b7e-b9b0f6c9944c" />
+<hr/>
+</div>
 # VaultSeer
 
 **VaultSeer** is a local-first semantic search tool designed to navigate through a user's personal knowledge base — such as markdown notes and PDF documents — without relying on any online APIs or cloud services.
