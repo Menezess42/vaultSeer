@@ -36,6 +36,8 @@
                 pythonPkgs.pyperclip
 
                 pythonPkgs.graphviz
+
+                pythonPkgs.pytest
                 ] ++ baseShell.buildInputs;
 
                 dontUsePytestCheck = true;
