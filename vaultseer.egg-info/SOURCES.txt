@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+vaultseer/__init__.py
+vaultseer.egg-info/PKG-INFO
+vaultseer.egg-info/SOURCES.txt
+vaultseer.egg-info/dependency_links.txt
+vaultseer.egg-info/top_level.txt

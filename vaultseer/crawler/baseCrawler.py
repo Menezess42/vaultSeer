@@ -22,7 +22,7 @@ class BaseCrawler:
 
         if baseDirs:
             self.baseDirs = baseDirs
-            self.vectorSize = len(self.baseDir)
+            self.vectorSize = len(self.baseDirs)
 
     def read_baseDirs(self, file_path: str=f"{AUX_FILES}/baseDirs.json") -> None:
         """Load base directory configuration from a JSON file.
@@ -65,7 +65,7 @@ class BaseCrawler:
                         dirQueue.append(newNode)
                         cRoot.add_children(newNode)
                     elif name.is_file():
-                        cRoot.add_child(newNode)
+                        cRoot.add_children(newNode)
 
             if dirTree.children != []:
                 self.rootsVector.append(dirTree)

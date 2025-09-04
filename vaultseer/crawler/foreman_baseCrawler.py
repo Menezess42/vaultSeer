@@ -1,4 +1,8 @@
 from vaultseer.crawler.baseCrawler import BaseCrawler
+from pathlib import Path
+import json
+# GLOBALS CONSTS
+AUX_FILES = Path(__file__).parent.parent / "aux_Files"
 
 class ForemanBaseCrawler:
     def __init__(self, newBaseDirs: dict={}) -> None:
@@ -8,14 +12,16 @@ class ForemanBaseCrawler:
         """
         if newBaseDirs:
             self.newbaseDirs = newBaseDirs
+        self.data = {}
 
-    def load_base_dirs(self) -> dict:
+    def load_base_dirs(self) -> None:
         """
         Read and validate the directory list from the baseDirs.json file.
 
         Returns a list of crawler-ready paths.
         """
-        ...
+        with open(f'{AUX_FILES}/baseDirs.json', 'r') as f:
+            self.data = json.load(f)
 
     def run_crawler(self) -> list:
         """
@@ -23,7 +29,8 @@ class ForemanBaseCrawler:
 
         Returns the tree of Node objects representing the found structure.
         """
-        ...
+        baseCrawler = BaseCrawler(self.data)
+        return baseCrawler.feedTree(returnTree=True)
 
     def extract_relevant_info(self):
         """

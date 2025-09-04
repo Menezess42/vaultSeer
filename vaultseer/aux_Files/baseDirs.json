@@ -1,10 +1,10 @@
 {
     "TomeHold": {
         "path": "/mnt/hdmenezess42/TomeHold",
-        "description": "this is my personla library and contains all my books and relevant formal and informal information",
+        "description": "this is my personla library and contains all my books and relevant formal and informal information"
     },
     "Mez2Brain": {
         "path": "/mnt/hdmenezess42/GitProjects/Mez2Brain",
-        "description": "This is my Obsidian folder where I storage all my notes in different topics of my interest",
-    },
+        "description": "This is my Obsidian folder where I storage all my notes in different topics of my interest"
+    }
 }

@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vaultseer"
+version = "0.1.0"
+description = "Ferramenta local-first para busca e indexação semântica"
+authors = [{ name = "Sr. Menezes" }]
+
+[tool.setuptools]
+packages = ["vaultseer"]
